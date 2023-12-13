@@ -1,5 +1,4 @@
-// No arquivo Vaga/index.tsx
-import React from 'react';
+// eslint-disable-next-line prettier/prettier
 import {
    VagaItem,
    VagaTitulo,

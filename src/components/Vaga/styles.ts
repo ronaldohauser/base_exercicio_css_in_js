@@ -1,4 +1,3 @@
-// No arquivo Vaga/styles.ts
 import styled from 'styled-components';
 
 export const VagaItem = styled.li`

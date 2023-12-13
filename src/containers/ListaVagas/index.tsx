@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import FormVagas from '../../components/FormVagas';
 import Vaga from '../../components/Vaga';
 import { ListaVagasContainer, VagasLista } from './styles';

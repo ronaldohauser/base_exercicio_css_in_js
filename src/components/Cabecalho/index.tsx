@@ -1,5 +1,5 @@
+/* eslint-disable prettier/prettier */
 
-import React from 'react';
 import { CabecalhoWrapper, Titulo } from './styles';
 
 const Cabecalho = () => (

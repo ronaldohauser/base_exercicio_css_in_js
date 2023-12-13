@@ -1,5 +1,3 @@
-// No arquivo Hero/index.tsx
-import React from 'react';
 import { HeroWrapper } from './styles';
 
 const Hero = () => (

@@ -1,18 +1,18 @@
-// No arquivo FormVagas/index.tsx
-import React, { FormEvent, useState } from 'react';
+// eslint-disable-next-line
+import { FormEvent, useState } from 'react';
 import { FormWrapper, BotaoPesquisar, CampoPesquisa } from './styles';
 
 type Props = {
-   aoPesquisar: (termo: string) => void;
+   aoPesquisar: (termo: string) => void
 };
 
 const FormVagas = ({ aoPesquisar }: Props) => {
-   const [termo, setTermo] = useState<string>('');
+   const [termo, setTermo] = useState<string>('')
 
    const aoEnviarForm = (e: FormEvent<HTMLFormElement>) => {
-      e.preventDefault();
-      aoPesquisar(termo.toLocaleLowerCase());
-   };
+      e.preventDefault()
+      aoPesquisar(termo.toLocaleLowerCase())
+   }
 
    return (
       <FormWrapper onSubmit={aoEnviarForm}>
@@ -23,7 +23,7 @@ const FormVagas = ({ aoPesquisar }: Props) => {
          />
          <BotaoPesquisar type="submit">Pesquisar</BotaoPesquisar>
       </FormWrapper>
-   );
+   )
 };
 
 export default FormVagas;

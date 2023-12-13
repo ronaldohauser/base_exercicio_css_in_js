@@ -1,4 +1,3 @@
-// No arquivo Hero/styles.ts
 import styled from 'styled-components';
 
 export const HeroWrapper = styled.form`
